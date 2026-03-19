@@ -1,0 +1,108 @@
+:root{
+    text-decoration-color:black;   
+         background-color: azure;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    text-decoration-color: var(text-decoration-color);
+    background-color:aliceblue;
+}
+
+a{
+    text-decoration-color: blue;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+    background-color: beige;
+}
+
+nav .esquerda a{
+    color:black;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav .direita a{
+    color:skyblue;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+}
+
+.me .text {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.me .text .links {
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me .text .links a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.me .text .links a:hover{
+    color: black;
+    border: 2px solid ;
+}
+
+.habilidades .text {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.contato .text a{
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.me .headshot{
+    flex: 2;
+}
+
+
+.me .headshot img{
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 300px;
+    border: 10px solid;
+}
+.me {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contato {
+    margin-left: 25px;
+}
